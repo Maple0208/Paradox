@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS chat (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO users (id,username,password,role,name,email,phone,dept,status,secret,balance) VALUES
-(1,'admin','admin123','admin','系统管理员','admin@corp.com','13800000001','信息中心','active','sk_live_8f23ad91c0',99999),
+(1,'admin','PasSW0rd@000','admin','系统管理员','admin@corp.com','13800000001','信息中心','active','sk_live_8f23ad91c0',99999),
 (2,'zhangwei','123456','user','张伟','zhangwei@corp.com','13800000002','销售部','active','',5000),
 (3,'liwu','liwu@2000','user','李武','liwu@corp.com','13800000003','财务部','active','',8000),
 (4,'manager','Manager#88','manager','王经理','manager@corp.com','13800000004','运营部','active','',20000);
